@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            Welcome !!
+        </title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <a class="navbar-brand" href="#trend"><img src="img\lo.jpg" height="60px"/></a>
+                      </div>
+                      
+                      <form class="navbar-form navbar-left" action="city.php" method="POST">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="city" size="120%" placeholder="Search for City">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                      </form>
+
+                      <ul class="nav navbar-nav ">
+                            <a href="signin.html"><button type="button" class="btn btn-primary" id="b1" value="Sign"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Sign In</button></a>
+                            <a href="signup.html"><button type="submit" class="btn btn-success" id="b2" name="submit"><span class="glyphicon glyphicon-sunglasses"></span>&nbsp;&nbsp;Sign Up</button></a>
+                      </ul>
+                    </div>
+                  </nav> 
+
+                  <div class="col-lg-2 ">
+                    <br/>
+                    <h3>Trending Searches</h3><br/>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <a href="#card1"><b>Avengers Endgame</b></a>
+                      </li>
+                      <li class="list-group-item">
+                          <a href="#card"><b>Kalank</b></a>
+                      </li>
+                      <li class="list-group-item">
+                          <a href="#card1"><b>Captain Marvel</b></a>
+                      </li>
+                      <li class="list-group-item">
+                          <a href="#card1"><b>Shazam</b></a>
+                      </li>
+                    </ul>
+                </div>
+    </body>
+</html>

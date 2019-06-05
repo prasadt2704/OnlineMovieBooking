@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>
+            Welcome !!
+        </title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="main.html"><img src="img\lo.jpg" height="60px"/></a>
+          </div>            
+          <form class="navbar-form navbar-left" action="city.php" method="POST">
+            <div class="form-group">
+              <input type="drop-down" class="form-control" name="city" size="120%" placeholder="Search for City">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav ">
+            <button type="button" class="btn btn-primary" id="b1"value="Sign"><span class="glyphicon glyphicon-home"></span>&nbsp;Welcome</button>
+            <a href="index.html"><button type="submit" id="b2" class="btn btn-danger" name="submit"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Log Out</button></a>
+          </ul>
+        </div>
+      </nav> 
+
+      <!--Current running shows-->
+      <div class="col-lg-2 "><br/>
+        <h3>Trending Searches</h3><br/>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <a href="#card1"><b>Avenger Endgame</b></a>
+          </li>
+          <li class="list-group-item">
+            <a href="#card1"><b>Kalank</b></a>
+          </li>
+          <li class="list-group-item">
+            <a href="#card1"><b>Captain Marvel</b></a>
+          </li>
+          <li class="list-group-item">
+            <a href="#card1"><b>Shazam</b></a>
+          </li>
+        </ul>
+      </div>
+      <div class="container">          
+                    <div class="row">
+                      <h2 align="center">&nbsp;Now Showing</h2>
+                      <hr width="18%" align="center">
+                    <div class="card col-md-2 col-md-offset-1"  id ="card" style="width: 25%;">
+                      <img class="card-img-top" src="img\kalank.jpg">
+                      <div class="card-body">
+                          <h4 class="card-title"><b>Kalank</b></h4>
+                        <a href="#" class="btn btn-primary">Book Tickets</a><br>
+                        <br>
+                      </div>
+                    </div>
+
+                    <div class="card col-md-2" id ="card" style="width: 25%;">
+                      <img class="card-img-top" src="img\avengers.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title"><b>Avengers Endgame</b></h4>
+                    
+                        <a href="#" class="btn btn-primary">Book Tickets</a><br>
+                        <br>
+                      </div>
+                    </div>
+                    <div class="card col-md-2" id ="card" style="width: 25%;">
+                      <img class="card-img-top" src="img\cap.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title"><b>Captain Marvel</b></h4>
+                        <a href="#" class="btn btn-primary">Book Tickets</a><br>
+                        <br><br>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="card col-md-2 col-md-offset-2 shazam" id ="card" style="width: 25%;">
+                      <img class="card-img-top" src="img\shazam.jpg"  alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title"><b>Shazam</b></h4>
+                        <a href="#" class="btn btn-primary">Book Tickets</a><br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+    </body>
+</html>
