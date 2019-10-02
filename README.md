@@ -4,8 +4,8 @@ BookMyShow (mini project) Language: PHP
 
 Screenshots:
 
-![Screenshot](s1.png)
+![Screenshot](Bookmyshow/s1.png)
 
 
-![Screenshot](s2.png)
+![Screenshot](Bookmyshow/s2.png)
 
