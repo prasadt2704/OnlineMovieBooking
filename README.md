@@ -9,5 +9,3 @@ Screenshots:
 
 ![Screenshot](s2.png)
 
-
-![Screenshot](s3.png)
